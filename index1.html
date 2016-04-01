@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ShoppingCart all</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      
+      <nav class="container">
+         <ul>
+           <li class="active"><a href="#">SH</li>
+           <li><a href="#">Women</a></li>
+           <li><a href="#">Men</a></li>
+           <li><a href="#">Kids</a></li>
+           <li><a href="#">Coming soon</a></li>
+           <li><a href="#">About</a></li>
+         </ul>
+      </nav>
+        
+      
+        <div class="user-navigation">
+          <div class="account-navigation">
+          <ul>
+            <li><div class="user"><img src="images/user.png"></div><a>Log In</a></li>
+            <li><div class="basket"><img src="images/basket.png"></div><a>Basket(0)</a></li>
+          </ul>
+        </div>
+          <div class="search">
+            <input type="search"placeholder="">
+            <img src="images/search.png">
+          </div>
+        </div>
+    </div>
+
+    <div class="content">
+      <div class="semi-navigation">
+      <ul>
+        <li><a>HOME</a></li>
+        <p>/</p>
+        <li><a>MEN</a></li>
+      </ul>
+      </div>
+             <div class="group-name">
+                <h1>YOUR SHOPPING BAG</h1>
+                <p>Items reserved for limited time only</p>
+             </div>
+      <div class="category">
+        <table>
+            <tr>
+              <th>PRODUCT</th>
+              <th>DESCRIPTION</th> 
+              <th>COLOR</th>
+              <th>SIZE</th>
+              <th>QTY</th>
+              <th>AMOUNT</th>
+              <th>DELETE</th>
+           </tr>
+          <tr>
+            <td><div class="alternative"></div></td>
+            <td><div class="description"><p>FLORAL PLIMSOLL</p><p>Ref. 2514/302</p></div></td> 
+            <td>One Color</td>
+            <td>39</td>
+            <td><div class="qty"><p>1</p></div><div class="qtyctrl"><img src="images/plus.png"><br><img src="images/minus.png"></div></td>
+            <td>&euro;99,95</td>
+            <td><img src="images/delete.png"></td>
+          </tr>
+          <tr>
+            <td><div class="alternative"></div></td>
+            <td><div class="description"><p>COATED 5 POCKET TROUSERS</p><p>Ref. 8246/044</p></div></td> 
+            <td>One Color</td>
+            <td>M</td>
+            <td><div class="qty"><p>1</o></div><div class="qtyctrl"><img src="images/plus.png"><br><img src="images/minus.png"></div></td>
+            <td>&euro;169,00</td>
+            <td><img src="images/delete.png"></td>
+          </tr>
+           <tr>
+            <td><div class="alternative"></div></td>
+            <td><div class="description"><p>OVERSIZED STUDIO BLOUSE</p><p>Ref. 2401/657</p></div></td> 
+            <td>Black</td>
+            <td>S</td>
+            <td><div class="qty"><p>1</p></div><div class="qtyctrl"><img src="images/plus.png"><br><img src="images/minus.png"></div></td>
+            <td>&euro;299,00</td>
+            <td><img src="images/delete.png"></td>
+          </tr>
+          <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Subtotal:</td>
+            <td>&euro;567,95</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+        <div class="quick-nav">
+          <div>
+          <img src="images/downarrow.png">
+          <img src="images/downarrow.png">
+          <img src="images/downarrow.png">
+        </div>
+        </div>
+            <div class="group-name">
+                  <h1>SHIPPING ADDRESS</h1>
+                  <p>All fields are required</p>
+             </div>
+            <div class="category">
+             <div class="form">
+              <div class="form-item"> 
+                <div class="form-container">
+               <label for="delivery">SELECT DELIVERY METHOD:</label><br> 
+               <select name="delivery" form="">
+                  <option value="DHL International-">DHL International - &euro;15.00</option>
+                </select>
+              </div>
+               </div>  
+                <div class="form-item">
+                  <div class="form-container">
+                <label for="name">FIRST NAME:</label><br>
+                <input type="text"  name="user_name">
+              </div>
+                </div>
+              <div class="form-item">
+                 <div class="form-container">
+                <label for="name">LAST NAME:</label><br>
+                <input type="text"  name="user_name">
+                </div>
+              </div>
+               <div class="form-item">
+                 <div class="form-container">
+                <label for="Address">ADDRESS(line1):</label><br>
+                <input class="address" type="text"  name="user_password">
+              </div>
+            </div>
+              <div class="form-item">
+                 <div class="form-container">
+                <label for="Address2">ADDRESS(line2):</label><br>
+                <input class="address" type="text"  name="user_password">
+              </div>
+            </div>
+              <div class="form-item">
+                 <div class="form-container">
+                <label for="mail">CITY:</label><br>
+                <input type="email"  name="user_email">
+                </div>
+                </div> 
+              <div class="form-item">
+                 <div class="form-container">
+                <label for="mail">POSTAL CODE:</label><br>
+                <input type="text"  name="user_email">
+                </div>
+              </div>
+              <div class="form-item">
+                 <div class="form-container">
+                <label for="mail">PHONE NUMBER:</label><br>
+                <input type="text"  name="user_email">
+                </div>
+                </div>   
+              <div class="form-item">
+                 <div class="form-container">
+                <label for="mail">EMAIL:</label><br>
+                <input type="email"  name="user_email">
+              </div>
+                </div>
+              <div class="form-item">
+                 <div class="form-container">
+                    <input type="checkbox" name="address" value="Use address">    Use this addresss for billing<br>
+              </div>
+                </div>                 
+             </div>
+          </div>
+                   <div class="quick-nav">
+                    <div>
+                      <img src="images/downarrow.png">
+                      <img src="images/downarrow.png">
+                      <img src="images/downarrow.png">
+                   </div>
+                  </div>
+              <div class="group-name">
+                  <h1>PAYMENT OPTIONS</h1>
+                  <p>All fields are required</p>
+              </div>
+            <div class="category">
+              <div class="form2">
+                <div class="pricing">
+                  <p>Subtotal:</p><p>&euro;567,95</p>
+                  <p>Shipping:</p><p>&euro;15,00</p>
+                  <div class="total-pricing">
+                    <p>Total:</p>  <p>&euro;582,95</p>
+                  </div>
+              </div>
+              <div class="form-item"> 
+                <div class="form-container">
+                  <img src="images/visa.png">
+                  <img src="images/master.png"> 
+               <label for="payment">SELECT PAYMENT METHOD:</label><br> 
+               <select name="delivery" form="">
+                  <option value="Credit Card">Credit Card</option>
+                  <option value="Paypal">Paypal</option>
+                </select>
+              </div>
+               </div>  
+               <input type="button" class="button" value="ORDER NOW">
+      </div>
+    </div>
+     <footer>
+  <ul class="footer-columns">
+    <li><h1>Collection</h1>
+      <ul class="single-column">
+        <li><a>Women (1725)</a></li>
+        <li><a>Men (635)</a></li>
+        <li><a>Kids (2514)</a></li>
+        <li><a>Coming soon (76)</a></li>
+      </ul>
+    </li>
+
+        <li><h1>Site</h1>
+          <ul class="single-column">
+            <li><a>Terms of service</a></li>
+            <li><a>Privacy policy</a></li>
+            <li><a>Copyright policy</a></li>
+            <li><a>Press</a></li>
+            <li><a>Support</a></li>
+        </ul>
+       </li>
+
+    <li><h1>Shop</h1>
+      <ul class="single-column">
+        <li><a>About us</a></li>
+        <li><a>Shipping methods</a></li>
+        <li><a>Career</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </li>
+    <li><h1>Social</h1>
+      <ul class="single-column">
+        <li>Shoper is made with love in Warsaw</li>
+        <li>2014 all right preserved.El passion</li>
+        <li><img src="images/twitter.png"><img src="images/facebook.png"><img src="images/gmail.png"></li>
+      </ul>
+    </li>
+  </ul>
+ </footer>
+ </body>
+
+ </html>
